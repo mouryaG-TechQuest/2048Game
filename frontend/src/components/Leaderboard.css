@@ -1,0 +1,119 @@
+.leaderboard-container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.leaderboard-title {
+  font-size: 2rem;
+  text-align: center;
+  color: #776e65;
+  margin-bottom: 20px;
+}
+
+.leaderboard-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.leaderboard-item {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  background: #f9f6f2;
+  border-radius: 10px;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.leaderboard-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.leaderboard-item.rank-1 {
+  background: linear-gradient(135deg, #ffd700 0%, #ffed4e 100%);
+}
+
+.leaderboard-item.rank-2 {
+  background: linear-gradient(135deg, #c0c0c0 0%, #e8e8e8 100%);
+}
+
+.leaderboard-item.rank-3 {
+  background: linear-gradient(135deg, #cd7f32 0%, #e8a868 100%);
+}
+
+.rank {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  background: white;
+  border-radius: 50%;
+  margin-right: 15px;
+  color: #776e65;
+}
+
+.player-info {
+  flex: 1;
+}
+
+.username {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #776e65;
+  margin-bottom: 5px;
+}
+
+.stats {
+  display: flex;
+  gap: 15px;
+  font-size: 0.9rem;
+  color: #8f7a66;
+}
+
+.score {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #776e65;
+  min-width: 80px;
+  text-align: right;
+}
+
+.no-players {
+  text-align: center;
+  padding: 40px;
+  color: #8f7a66;
+  font-size: 1.1rem;
+}
+
+.refresh-button {
+  width: 100%;
+  margin-top: 20px;
+  padding: 12px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.refresh-button:hover {
+  transform: translateY(-2px);
+}
+
+.loading {
+  text-align: center;
+  padding: 40px;
+  font-size: 1.2rem;
+  color: #776e65;
+}
