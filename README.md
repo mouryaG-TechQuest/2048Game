@@ -191,6 +191,18 @@ docker build -t game2048-frontend .
 docker-compose up
 ```
 
+## 🌐 Netlify Deployment
+
+Deploy the frontend to Netlify for free hosting! See the complete guide: **[NETLIFY_DEPLOYMENT.md](./NETLIFY_DEPLOYMENT.md)**
+
+Quick steps:
+1. Deploy backend to Heroku/Railway/Render
+2. Connect repository to Netlify
+3. Set environment variables (`VITE_API_BASE_URL`, `VITE_WS_URL`)
+4. Deploy automatically with included `netlify.toml` configuration
+
+For detailed instructions, troubleshooting, and best practices, check the [Netlify Deployment Guide](./NETLIFY_DEPLOYMENT.md).
+
 ## 🔍 Troubleshooting
 
 ### Backend Issues

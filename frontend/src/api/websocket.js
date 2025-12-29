@@ -8,7 +8,8 @@ class WebSocketService {
   }
 
   connect(onGameUpdate) {
-    const socket = new SockJS('http://localhost:8080/ws-game');
+    const wsUrl = import.meta.env.VITE_WS_URL || 'http://localhost:8080/ws-game';
+    const socket = new SockJS(wsUrl);
     
     this.client = new Client({
       webSocketFactory: () => socket,
