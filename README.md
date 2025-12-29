@@ -1,6 +1,10 @@
 # 2048 Game Service
 
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/mouryaG-TechQuest/2048Game)
+
 A high-performance multiplayer 2048 game built with Spring Boot, MySQL, and React. Supports real-time gameplay with WebSocket for multiple concurrent players.
+
+> **🚀 Quick Deploy**: See [DEPLOY_QUICK.md](./DEPLOY_QUICK.md) for a fast deployment guide or [NETLIFY_DEPLOYMENT.md](./NETLIFY_DEPLOYMENT.md) for detailed instructions.
 
 ## 🎮 Features
 
