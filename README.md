@@ -1,6 +1,10 @@
 # 2048 Game Service
 
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/mouryaG-TechQuest/2048Game)
+
 A high-performance multiplayer 2048 game built with Spring Boot, MySQL, and React. Supports real-time gameplay with WebSocket for multiple concurrent players.
+
+> **🚀 Quick Deploy**: See [DEPLOY_QUICK.md](./DEPLOY_QUICK.md) for a fast deployment guide or [NETLIFY_DEPLOYMENT.md](./NETLIFY_DEPLOYMENT.md) for detailed instructions.
 
 ## 🎮 Features
 
@@ -190,6 +194,18 @@ docker build -t game2048-frontend .
 # Run with Docker Compose
 docker-compose up
 ```
+
+## 🌐 Netlify Deployment
+
+Deploy the frontend to Netlify for free hosting! See the complete guide: **[NETLIFY_DEPLOYMENT.md](./NETLIFY_DEPLOYMENT.md)**
+
+Quick steps:
+1. Deploy backend to Heroku/Railway/Render
+2. Connect repository to Netlify
+3. Set environment variables (`VITE_API_BASE_URL`, `VITE_WS_URL`)
+4. Deploy automatically with included `netlify.toml` configuration
+
+For detailed instructions, troubleshooting, and best practices, check the [Netlify Deployment Guide](./NETLIFY_DEPLOYMENT.md).
 
 ## 🔍 Troubleshooting
 
